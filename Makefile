@@ -5,3 +5,6 @@ kilo: kilo.c
 
 clean:
 	rm kilo
+
+install:
+	sudo cp ./kilo /usr/local/bin
